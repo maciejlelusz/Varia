@@ -1,0 +1,8 @@
+# Mac build-in TFTP
+
+# Start
+sudo launchctl load -F /System/Library/LaunchDaemons/tftp.plist
+sudo launchctl start com.apple.tftpd
+
+# Stop
+sudo launchctl unload -F /System/Library/LaunchDaemons/tftp.plist
