@@ -6,3 +6,6 @@ sudo launchctl start com.apple.tftpd
 
 # Stop
 sudo launchctl unload -F /System/Library/LaunchDaemons/tftp.plist
+
+# Files are here
+/private/tftpboot
